@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T13:19:04.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="adD2MIP2ATN5GOg_VvZc" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T13:32:12.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6Phf9mV9UvnapGEuFh4m" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1774" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -91,6 +91,9 @@
         </mxCell>
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-36" value="进入同步模块中，同时注册beanDefinationMap和beanDefinationNames" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="620" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-39" value="如果bean不是定义为singleton的话，那么在并发请求的时候，有可能会同时创建两个相同名称的bean。如果bean是singleton的话，那么bean的生命周期由spring容器管理，而非singleton的bean，生命周期会随着线程，会话而创建和消亡。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-450" y="390" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
