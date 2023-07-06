@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T10:37:43.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6O62tOzZ1AgB8yRxpkwT" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T10:49:21.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="tB7xBwCqYrIbE6_6ziMo" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1774" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -23,10 +23,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-8" value="registerBeanDefination" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-80" y="210" width="140" height="60" as="geometry" />
+          <mxGeometry x="-70" y="210" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-10" value="" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-70" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-10" target="6dgZI4LltGJ7n1IkP1hy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;首先判断该类是否是AbstractBeanDefination的子类，该方法主要是判断该&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;bean&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; color: rgb(128, 128, 128);&quot;&gt;的方法有没有被复写，如果被复写了，抛出异常&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontStyle=0;startSize=26;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-260" y="310" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-17" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-14" value="是否存在相同名称的bean" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-185" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-19" value="判断allowBeanDefinitionOverriding这个变量是否true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-310" y="530" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
