@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T11:27:13.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RxIhjeUyRev1urdhWNfz" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T13:19:04.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="adD2MIP2ATN5GOg_VvZc" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1774" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -36,6 +36,9 @@
             <mxPoint x="-270" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-14" target="6dgZI4LltGJ7n1IkP1hy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-14" value="是否存在相同名称的bean" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-185" y="440" width="80" height="80" as="geometry" />
         </mxCell>
@@ -47,11 +50,47 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-19" target="6dgZI4LltGJ7n1IkP1hy-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-26">
+          <mxGeometry x="-0.0952" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-19" value="判断allowBeanDefinitionOverriding这个变量是否true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-310" y="530" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-22" value="打印日志，bean覆盖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-459" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-25" value="抛出异常" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-330" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-31" target="6dgZI4LltGJ7n1IkP1hy-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-35" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-34">
+          <mxGeometry x="-0.1619" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-31" target="6dgZI4LltGJ7n1IkP1hy-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-37">
+          <mxGeometry x="-0.5333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-31" value="判断是否有bean被初始化过" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-33" value="加入beanDefinationMap和beanDefinationNames中去" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-110" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-36" value="进入同步模块中，同时注册beanDefinationMap和beanDefinationNames" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="620" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
