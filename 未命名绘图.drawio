@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T10:49:21.689Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="tB7xBwCqYrIbE6_6ziMo" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T11:27:13.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RxIhjeUyRev1urdhWNfz" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1774" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -39,8 +39,19 @@
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-14" value="是否存在相同名称的bean" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-185" y="440" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-19" target="6dgZI4LltGJ7n1IkP1hy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-23">
+          <mxGeometry x="0.4022" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6dgZI4LltGJ7n1IkP1hy-19" value="判断allowBeanDefinitionOverriding这个变量是否true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-310" y="530" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-22" value="打印日志，bean覆盖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-459" y="635" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
