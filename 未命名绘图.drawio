@@ -1,98 +1,98 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T13:36:42.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="hOvpclC7wTySshmjqdyw" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-07T15:08:02.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="YDefbVY19Wma3KwQTte2" version="21.6.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1830" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="6dgZI4LltGJ7n1IkP1hy-0">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="6dgZI4LltGJ7n1IkP1hy-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="DefaultListableBeanFactory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="210" y="20" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-0" target="6dgZI4LltGJ7n1IkP1hy-8">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-0" target="6dgZI4LltGJ7n1IkP1hy-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-0" value="BeanDefinationRegistry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-0" value="BeanDefinationRegistry" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="50" y="110" width="130" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-1" value="Iface" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="6dgZI4LltGJ7n1IkP1hy-0">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-1" value="Iface" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="6dgZI4LltGJ7n1IkP1hy-0" vertex="1">
           <mxGeometry y="26" width="130" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-8" target="6dgZI4LltGJ7n1IkP1hy-10">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-8" target="6dgZI4LltGJ7n1IkP1hy-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-8" value="registerBeanDefination" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-8" value="registerBeanDefination" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;fontStyle=0;startSize=26;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-70" y="210" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-10" target="6dgZI4LltGJ7n1IkP1hy-14">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-10" target="6dgZI4LltGJ7n1IkP1hy-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;首先判断该类是否是AbstractBeanDefination的子类，该方法主要是判断该&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;bean&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; color: rgb(128, 128, 128);&quot;&gt;的方法有没有被复写，如果被复写了，抛出异常&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontStyle=0;startSize=26;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-10" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;首先判断该类是否是AbstractBeanDefination的子类，该方法主要是判断该&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;bean&lt;/span&gt;&lt;span style=&quot;font-family: 宋体, monospace; color: rgb(128, 128, 128);&quot;&gt;的方法有没有被复写，如果被复写了，抛出异常&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontStyle=0;startSize=26;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-260" y="310" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-17" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-14">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-17" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-270" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-14" target="6dgZI4LltGJ7n1IkP1hy-31">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-14" target="6dgZI4LltGJ7n1IkP1hy-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-14" value="是否存在相同名称的bean" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-14" value="是否存在相同名称的bean" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-185" y="440" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-19" target="6dgZI4LltGJ7n1IkP1hy-22">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-19" target="6dgZI4LltGJ7n1IkP1hy-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-23">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6dgZI4LltGJ7n1IkP1hy-23" vertex="1" connectable="0">
           <mxGeometry x="0.4022" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-19" target="6dgZI4LltGJ7n1IkP1hy-25">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-19" target="6dgZI4LltGJ7n1IkP1hy-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-26">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-27" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6dgZI4LltGJ7n1IkP1hy-26" vertex="1" connectable="0">
           <mxGeometry x="-0.0952" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-19" value="判断allowBeanDefinitionOverriding这个变量是否true" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-19" value="判断allowBeanDefinitionOverriding这个变量是否true" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-310" y="530" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-22" value="打印日志，bean覆盖" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-22" value="打印日志，bean覆盖" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-459" y="635" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-25" value="抛出异常" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-25" value="抛出异常" style="whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-330" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-31" target="6dgZI4LltGJ7n1IkP1hy-33">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-31" target="6dgZI4LltGJ7n1IkP1hy-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-35" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-34">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-35" value="没有" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6dgZI4LltGJ7n1IkP1hy-34" vertex="1" connectable="0">
           <mxGeometry x="-0.1619" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-31" target="6dgZI4LltGJ7n1IkP1hy-36">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6dgZI4LltGJ7n1IkP1hy-31" target="6dgZI4LltGJ7n1IkP1hy-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6dgZI4LltGJ7n1IkP1hy-37">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6dgZI4LltGJ7n1IkP1hy-37" vertex="1" connectable="0">
           <mxGeometry x="-0.5333" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-31" value="判断是否有bean被初始化过" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-31" value="判断是否有bean被初始化过" style="rhombus;whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-90" y="530" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-33" value="加入beanDefinationMap和beanDefinationNames中去" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-33" value="加入beanDefinationMap和beanDefinationNames中去" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-110" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-36" value="进入同步模块中，同时注册beanDefinationMap和beanDefinationNames" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="620" width="140" height="60" as="geometry" />
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-36" value="进入同步模块中，同时注册beanDefinationMap和beanDefinationNames，并且删除手动注册的bean名称" style="whiteSpace=wrap;html=1;align=left;fillColor=none;rounded=1;fontStyle=0;startSize=26;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="20" y="620" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="6dgZI4LltGJ7n1IkP1hy-39" value="如果bean不是定义为singleton的话。那么在并发请求的时候，有可能会同时创建两个相同名称的bean，但是他们不会被。如果bean是singleton的话，那么bean的生命周期由spring容器管理，而非singleton的bean，生命周期会随着线程，会话而创建和消亡。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="6dgZI4LltGJ7n1IkP1hy-39" value="如果bean不是定义为singleton的话。那么在并发请求的时候，有可能会同时创建两个相同名称的bean，但是他们不会被。如果bean是singleton的话，那么bean的生命周期由spring容器管理，而非singleton的bean，生命周期会随着线程，会话而创建和消亡。" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-500" y="370" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
